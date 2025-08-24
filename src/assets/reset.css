@@ -1,0 +1,60 @@
+/* ====== Reset / Normalize (Lightweight with Notes) ====== */
+
+/* ✅ Essential: use border-box everywhere for predictable sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0; /* removes default margins (esp. on body, headings, etc.) */
+  padding: 0; /* removes default padding (lists, inputs, etc.) */
+}
+
+/* ✅ Essential: base body styles */
+body {
+  line-height: calc(1rem + 0.5rem); /* makes text more readable */
+  font-family: system-ui, sans-serif; /* modern default font stack */
+  background-color: #fff;
+  color: #000;
+
+  /* ⚠️ Optional: mostly defensive */
+  -webkit-font-smoothing: antialiased; /* improves font rendering (Mac/iOS) */
+  -moz-osx-font-smoothing: grayscale; /* improves font rendering (Mac only) */
+  text-rendering: optimizeLegibility; /* may improve kerning on some browsers */
+  -webkit-text-size-adjust: 100%; /* prevents unwanted iOS text zoom */
+}
+
+/* ✅ Essential: make media responsive by default */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* ✅ Essential: form elements inherit fonts */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+/* ✅ Essential: links without forced underline/color */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ✅ Essential: remove default list bullets/numbers */
+ul,
+ol {
+  list-style: none;
+}
+
+/* ⚠️ Optional: ensure hidden attribute always works */
+[hidden] {
+  display: none !important;
+}
