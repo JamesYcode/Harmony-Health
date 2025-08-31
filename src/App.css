@@ -17,15 +17,15 @@
   }
 
   .navbar .nav-list {
-    display: flex;
+    display: flex !important;
   }
 
   .hamburger-icon {
-    display: none;
+    display: none !important;
   }
 
   .mobile-panel {
-    display: none;
+    display: none !important;
   }
 }
 

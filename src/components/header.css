@@ -8,7 +8,7 @@
   z-index: 1000;
 }
 
-.header h1 {
+.header h2 {
   cursor: pointer;
   /* padding: 1rem; */
   font-size: 1.3rem;
@@ -25,7 +25,7 @@
 }
 
 .nav-list li {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   font-weight: 500;
   color: var(--third-color);
   padding: 0.25rem;
@@ -48,7 +48,7 @@
 
 .mobile-panel {
   position: fixed;
-  top: 64px;
+  top: 60px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -72,4 +72,5 @@
 
 .mobile-panel.open {
   transform: translateY(0);
+  background-color: var(--fourth-color);
 }

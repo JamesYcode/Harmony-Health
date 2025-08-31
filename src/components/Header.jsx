@@ -13,20 +13,21 @@ function Header() {
     }
 
     viewport.addEventListener('change', handleChange);
+    return () => viewport.removeEventListener('change', handleChange);
   }, []);
 
   function toggleNavbar() {
     setIsNavbarOpen((prevstate) => !prevstate);
   }
 
-  function closeNavbar() {
-    setIsNavbarOpen(false);
-  }
+  // function closeNavbar() {
+  //   setIsNavbarOpen(false);
+  // }
 
   return (
     <>
       <div className='header container'>
-        <h1>Harmony Health</h1>
+        <h2>Harmony Health</h2>
         <Navbar toggleNavbar={toggleNavbar} />
       </div>
 

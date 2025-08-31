@@ -1,0 +1,68 @@
+.home {
+  /* border: 1px solid red; */
+  height: 80vh;
+  display: grid;
+  place-content: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.blob-main {
+  position: absolute;
+
+  /* responsive sizing */
+  width: clamp(15rem, 35vw, 28rem);
+  height: clamp(15rem, 35vw, 28rem);
+  filter: blur(80px); /* soft blob look */
+
+  background: linear-gradient(
+    135deg,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  border-radius: 50% 40% 60% 50% / 50% 60% 40% 50%; /* organic shape */
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.blob {
+  top: -10rem;
+  right: -6rem;
+}
+
+.blob2 {
+  top: -10rem;
+  left: -6rem;
+}
+
+.home h2 {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.hero {
+  background: linear-gradient(45deg, #2190ff 2.34%, #b673f8 100.78%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 2rem;
+  align-items: center;
+}
+
+.find-doctors button {
+  background: var(--primary-color);
+  border-radius: 15px;
+  padding: 1.2rem;
+  border: none;
+  color: var(--fourth-color);
+}
