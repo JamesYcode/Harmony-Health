@@ -1,3 +1,4 @@
+import './header.css';
 import { useEffect, useState } from 'react';
 import Navbar from './Navbar';
 import NavOverlay from './NavOverlay';
