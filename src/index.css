@@ -5,6 +5,7 @@
   --xs: 375px;
   --sm: 640px;
   --md: 768px;
+  --mdlg: 1024px;
   --lg: 1280px;
   --xxl: 1536px;
 
@@ -13,12 +14,13 @@
   /* Colors */
   --primary-color: #2190ff;
   --secondary-color: #b673f8;
-  --third-color: #f9fafb;
+  --third-color: #0f3051;
+  --fourth-color: #f9fafb;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--third-color);
+  background-color: var(--fourth-color);
 }
 
 .container {
@@ -27,7 +29,6 @@ body {
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  border: 2px solid red;
 }
 
 .section {
