@@ -65,4 +65,10 @@
   padding: 1.2rem;
   border: none;
   color: var(--fourth-color);
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.find-doctors button:hover {
+  transform: scale(1.1);
 }
