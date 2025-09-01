@@ -8,6 +8,16 @@
   z-index: 1000;
 }
 
+.logo {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+}
+
 .header h2 {
   cursor: pointer;
   /* padding: 1rem; */
