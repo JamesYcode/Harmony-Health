@@ -1,8 +1,8 @@
 .home {
   /* border: 1px solid red; */
-  height: 80vh;
+  /* height: 100vh; */
   display: grid;
-  place-content: center;
+  /* place-content: center; */
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -37,14 +37,26 @@
   left: -6rem;
 }
 
-.home h2 {
-  text-align: center;
+.hero {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem;
+}
+
+.hero-content h2 {
+  /* border: 1px solid red; */
   line-height: 1.5;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 800;
 }
 
-.hero {
+.hero-content {
+  margin-right: auto;
+}
+
+.hero-heading {
   background: linear-gradient(45deg, #2190ff 2.34%, #b673f8 100.78%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -52,23 +64,77 @@
 }
 
 .sub-hero {
+  margin-top: 2rem;
+  /* height: 100%; */
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
-  gap: 5rem;
-  padding: 2rem;
+  gap: 1.5rem;
   align-items: center;
+  font-size: 0.99rem;
 }
 
-.find-doctors button {
+.more-info {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+
+.more-info button {
+  width: inherit; /* Inheriting from parent which is .more-info width 100% */
   background: var(--primary-color);
-  border-radius: 15px;
-  padding: 1.2rem;
+  border-radius: 8px;
+  padding: 0.67rem;
   border: none;
   color: var(--fourth-color);
   cursor: pointer;
   transition: all 1s ease;
 }
 
-.find-doctors button:hover {
+.more-info button:hover {
   transform: scale(1.1);
+}
+
+.testimony-slide {
+  /* border: 1px solid red; */
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 100%;
+  background: linear-gradient(145deg, #2190ffa7, #b673f89e);
+}
+
+.testimony-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.testimony-img {
+  /* border: 1px solid red; */
+  width: 100px;
+  /* margin-right: auto; */
+  border-radius: 30px;
+}
+
+.testimony-name {
+  color: var(--third-color);
+}
+
+.testimony-quote {
+  font-size: 0.95rem;
+  /* border: 1px solid red; */
+  color: var(--third-color);
+}
+
+.testimony-quote blockquote {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
 }
