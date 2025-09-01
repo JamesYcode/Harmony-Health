@@ -6,6 +6,7 @@ const data = [
   {
     image: {
       profile: '/src/assets/images/patient_1.jpg',
+      insurance: '/src/assets/images/anthem.svg',
     },
     name: 'John',
     testimony:
@@ -15,6 +16,7 @@ const data = [
   {
     image: {
       profile: '/src/assets/images/patient_2.jpg',
+      insurance: '/src/assets/images/Aetna_logo.svg',
     },
     name: 'Jennifer',
     testimony:
@@ -24,6 +26,7 @@ const data = [
   {
     image: {
       profile: '/src/assets/images/patient_3.jpg',
+      insurance: '/src/assets/images/cigna-3.svg',
     },
     name: 'Amber',
     testimony:
@@ -33,6 +36,7 @@ const data = [
   {
     image: {
       profile: '/src/assets/images/patient_4.jpg',
+      insurance: '/src/assets/images/uhc.svg',
     },
     name: 'Lin',
     testimony:

@@ -24,11 +24,18 @@ function Home({ data }) {
               with you to promote healing, wellness, and peace of mind.
             </p>
             <div className='more-info'>
-              <button>Find doctors</button>
-              <button>More Info</button>
+              <button className='button'>Find doctors</button>
+              <button className='button'>More Info</button>
             </div>
           </div>
-          <div className='partners-container'></div>
+
+          <div className='partners-container'>
+            {data.map((el) => (
+              <div className='partners-wrapper'>
+                <img src={el.image.insurance} alt='' />
+              </div>
+            ))}
+          </div>
 
           <div className='testimony-slide'>
             <div className='testimony-container'>
@@ -45,6 +52,9 @@ function Home({ data }) {
               <blockquote>"</blockquote>
             </p>
           </div>
+          <button className='appointment-btn button'>
+            Book an appointment
+          </button>
         </div>
       </div>
     </div>

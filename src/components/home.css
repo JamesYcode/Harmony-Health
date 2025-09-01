@@ -81,7 +81,7 @@
   gap: 2rem;
 }
 
-.more-info button {
+.button {
   width: inherit; /* Inheriting from parent which is .more-info width 100% */
   background: var(--primary-color);
   border-radius: 8px;
@@ -94,6 +94,22 @@
 
 .more-info button:hover {
   transform: scale(1.1);
+}
+
+.partners-container {
+  border: 1px solid red;
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.partners-wrapper img {
+  border: 1px solid blue;
+  width: 100px;
+  height: 70px;
 }
 
 .testimony-slide {
@@ -137,4 +153,8 @@
   font-size: 1.5rem;
   font-weight: 700;
   font-style: italic;
+}
+
+.appointment-btn {
+  margin-top: 1rem;
 }
