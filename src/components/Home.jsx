@@ -15,6 +15,7 @@ function Home({ data }) {
               <br />
               <span className='hero-heading'>Commitment to Health</span>
             </h2>
+            <div className='hero-doctors'></div>
           </div>
 
           <div className='sub-hero'>
