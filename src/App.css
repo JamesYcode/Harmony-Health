@@ -62,6 +62,12 @@
     font-size: 1.025rem !important;
   }
 
+  .partners-container {
+    margin-top: 4rem !important;
+    margin-bottom: 2rem !important;
+    /* border: 1px solid red; */
+  }
+
   .testimony-slide {
     display: flex;
     /* border: 2px solid green; */
@@ -121,8 +127,12 @@
   }
 
   .partners-wrapper img {
-    width: 150px !important;
+    width: 200px !important;
     height: 100px !important;
+  }
+
+  .partners-wrapper {
+    margin-right: 4rem !important;
   }
 }
 

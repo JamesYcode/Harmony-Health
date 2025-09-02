@@ -1,3 +1,4 @@
+import Marquee from 'react-fast-marquee';
 import './home.css';
 
 function Home({ data }) {
@@ -31,11 +32,13 @@ function Home({ data }) {
           </div>
 
           <div className='partners-container'>
-            {data.map((el) => (
-              <div key={el.id} className='partners-wrapper'>
-                <img src={el.image.insurance} alt='' />
-              </div>
-            ))}
+            <Marquee autoFill={true}>
+              {data.map((el) => (
+                <div key={el.id} className='partners-wrapper'>
+                  <img src={el.image.insurance} alt='' />
+                </div>
+              ))}
+            </Marquee>
           </div>
 
           <div className='testimony-slide'>

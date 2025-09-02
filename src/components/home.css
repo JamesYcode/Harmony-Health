@@ -1,5 +1,5 @@
 .home {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* height: 100vh; */
   display: grid;
   /* place-content: center; */
@@ -99,6 +99,10 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+}
+
+.partners-wrapper {
+  margin-right: 2rem;
 }
 
 .partners-wrapper img {
