@@ -39,7 +39,7 @@ const data = [
       profile: '/src/assets/images/patient_4.jpg',
       insurance: '/src/assets/images/uhc.svg',
     },
-    name: 'Lin',
+    name: 'Douglas',
     testimony:
       'Thanks to Harmony Health, I feel healthier, supported, and more confident in my care.The doctors at Harmony Health truly listened to my concerns and created a treatment plan that worked for me.',
     id: 4,

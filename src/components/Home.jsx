@@ -32,7 +32,7 @@ function Home({ data }) {
 
           <div className='partners-container'>
             {data.map((el) => (
-              <div className='partners-wrapper'>
+              <div key={el.id} className='partners-wrapper'>
                 <img src={el.image.insurance} alt='' />
               </div>
             ))}
@@ -48,9 +48,9 @@ function Home({ data }) {
               <p className='testimony-name'>{randomTestimony.name}</p>
             </div>
             <p className='testimony-quote'>
-              <blockquote>"</blockquote>
+              <span className='blockquote'>"</span>
               {randomTestimony.testimony}
-              <blockquote>"</blockquote>
+              <span className='blockquote'>"</span>
             </p>
           </div>
           <button className='appointment-btn button'>

@@ -11,7 +11,6 @@
   }
 
   .hero-content {
-    /* border: 1px solid red; */
     display: flex;
     gap: 2rem;
   }
@@ -22,7 +21,15 @@
     background-image: url('./images/doctors.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    border: 1px solid blue;
+  }
+
+  .testimony-img {
+    width: 400px !important;
+    border-radius: 30px;
+  }
+
+  .more-info .button {
+    width: 150px;
   }
 }
 
@@ -50,6 +57,42 @@
   .hero-content {
     gap: 3.3rem;
   }
+
+  .sub-hero {
+    font-size: 1.025rem !important;
+  }
+
+  .testimony-slide {
+    display: flex;
+    /* border: 2px solid green; */
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .testimony-quote {
+    padding: 1rem;
+    border-radius: 8px;
+    position: relative;
+    background-color: #15283ac7;
+    /* background-color: #1d68b4c9; */
+    color: var(--fourth-color) !important;
+  }
+
+  /* From: https://projects.verou.me/bubbly/ */
+  .testimony-quote:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: #15283ac7;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -10px;
+    margin-left: -20px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -59,6 +102,27 @@
 
   .hero-content h2 {
     font-size: 3.5rem !important;
+  }
+
+  .sub-hero {
+    font-size: 1.025rem !important;
+    margin-right: auto;
+    width: 750px;
+  }
+
+  .appointment-btn {
+    margin-top: 2rem !important;
+  }
+
+  .partners-container {
+    /* border: 1px solid red; */
+    gap: initial !important;
+    justify-content: space-around !important;
+  }
+
+  .partners-wrapper img {
+    width: 150px !important;
+    height: 100px !important;
   }
 }
 
@@ -73,6 +137,21 @@
 
   .hero-doctors {
     background-position: 7rem;
+  }
+
+  .testimony-slide {
+    width: 70% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .testimony-container {
+    width: 70% !important;
+  }
+
+  .testimony-quote {
+    width: 70%;
+    margin: 0 auto;
   }
 }
 
@@ -92,5 +171,9 @@
   .hero-doctors {
     min-width: 50% !important;
     background-position: 12rem;
+  }
+
+  .sub-hero {
+    width: 730px;
   }
 }
