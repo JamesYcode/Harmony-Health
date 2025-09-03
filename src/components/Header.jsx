@@ -16,9 +16,30 @@ function Header() {
     return () => viewport.removeEventListener('change', handleChange);
   }, []);
 
+  // Locks scroll when navbar overlay is toggled.
+  useEffect(() => {
+    if (isNavbarOpen) {
+      document.body.classList.add('nav-open');
+      document.documentElement.classList.add('nav-open');
+    } else {
+      document.body.classList.remove('nav-open');
+      document.documentElement.classList.remove('nav-open');
+    }
+  }, [isNavbarOpen]);
+
   function toggleNavbar() {
     setIsNavbarOpen((prevstate) => !prevstate);
   }
+
+  // Locks Scroll without useEffect
+  // function toggleNavbar() {
+  //   setIsNavbarOpen((prev) => {
+  //     const next = !prev;
+  //     document.documentElement.classList.toggle('nav-open', next);
+  //     document.body.classList.toggle('nav-open', next);
+  //     return next;
+  //   });
+  // }
 
   // function closeNavbar() {
   //   setIsNavbarOpen(false);

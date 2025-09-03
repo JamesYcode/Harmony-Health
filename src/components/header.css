@@ -1,3 +1,9 @@
+html.nav-open,
+body.nav-open {
+  overflow: hidden; /* prevents background page from moving */
+  height: 100%; /* ensures body doesn’t stretch */
+}
+
 .header {
   padding: 1rem;
   height: 64px;
