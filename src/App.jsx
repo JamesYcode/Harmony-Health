@@ -6,8 +6,8 @@ import Home from './components/Home';
 const data = [
   {
     image: {
-      profile: '/src/assets/images/patient_1.jpg',
-      insurance: '/src/assets/images/anthem.svg',
+      profile: '/images/patient_1.jpg',
+      insurance: '/images/anthem.svg',
     },
     name: 'John',
     testimony:
@@ -16,8 +16,8 @@ const data = [
   },
   {
     image: {
-      profile: '/src/assets/images/patient_2.jpg',
-      insurance: '/src/assets/images/Aetna_logo.svg',
+      profile: '/images/patient_2.jpg',
+      insurance: '/images/Aetna_logo.svg',
     },
     name: 'Jennifer',
     testimony:
@@ -26,8 +26,8 @@ const data = [
   },
   {
     image: {
-      profile: '/src/assets/images/patient_3.jpg',
-      insurance: '/src/assets/images/cigna-3.svg',
+      profile: '/images/patient_3.jpg',
+      insurance: '/images/cigna-3.svg',
     },
     name: 'Amber',
     testimony:
@@ -36,8 +36,8 @@ const data = [
   },
   {
     image: {
-      profile: '/src/assets/images/patient_4.jpg',
-      insurance: '/src/assets/images/uhc.svg',
+      profile: '/images/patient_4.jpg',
+      insurance: '/images/uhc.svg',
     },
     name: 'Douglas',
     testimony:
