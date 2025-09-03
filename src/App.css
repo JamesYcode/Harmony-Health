@@ -31,6 +31,15 @@
   .more-info .button {
     width: 150px;
   }
+
+  .footer-contact {
+    padding: 1rem !important;
+  }
+
+  .footer-navigate {
+    width: initial !important;
+    padding: 1rem !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -133,6 +142,14 @@
 
   .partners-wrapper {
     margin-right: 4rem !important;
+  }
+
+  .footer-contact {
+    min-width: 400px !important;
+  }
+
+  .footer-navigate {
+    min-width: 400px !important;
   }
 }
 

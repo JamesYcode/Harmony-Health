@@ -32,7 +32,7 @@ function Home({ data }) {
           </div>
 
           <div className='partners-container'>
-            <Marquee autoFill={true}>
+            <Marquee speed={25} pauseOnHover={true} autoFill={true}>
               {data.map((el) => (
                 <div key={el.id} className='partners-wrapper'>
                   <img src={el.image.insurance} alt='' />
