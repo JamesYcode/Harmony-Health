@@ -153,3 +153,7 @@
 .appointment-btn {
   margin-top: 1rem;
 }
+
+.appointment-btn:hover {
+  transform: scale(1.1);
+}
