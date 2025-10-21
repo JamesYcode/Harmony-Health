@@ -1,7 +1,7 @@
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Home from './components/Home';
+import Footer from './components/ui/Footer/Footer';
+import Header from './components/ui/Header/Header';
+import Home from './components/ui/Hero/Home';
 
 const data = [
   {
