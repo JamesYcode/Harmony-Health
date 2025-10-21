@@ -5,13 +5,22 @@ body.nav-open {
 }
 
 .header {
-  padding: 1rem;
-  height: 64px;
+  /* border: 1px solid red; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1.2rem;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.226);
+  /* height: 64px; */
+  z-index: 1000;
+}
+
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  z-index: 1000;
 }
 
 .logo {
@@ -33,7 +42,6 @@ body.nav-open {
 }
 
 .nav-list {
-  /* border: 1px solid red; */
   margin: 0;
   padding: 0;
   gap: 1.25rem;
