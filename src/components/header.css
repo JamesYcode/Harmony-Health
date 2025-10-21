@@ -18,6 +18,7 @@ body.nav-open {
   display: flex;
   gap: 0.3rem;
   align-items: center;
+  cursor: pointer;
 }
 
 .icon {
@@ -25,7 +26,6 @@ body.nav-open {
 }
 
 .header h2 {
-  cursor: pointer;
   /* padding: 1rem; */
   font-size: 1.3rem;
   font-weight: 600;
