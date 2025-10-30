@@ -17,8 +17,8 @@
 
   .hero-doctors {
     min-width: 100%;
-    height: 100%;
-    background-image: url('/images/doctors.jpeg');
+    /* height: 100%; */
+    background-image: url('/images/doctors.png');
     background-size: contain;
     background-repeat: no-repeat;
   }

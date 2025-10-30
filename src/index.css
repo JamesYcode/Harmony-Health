@@ -20,7 +20,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--fourth-color);
+  background: #f9fafb;
 }
 
 .container {

@@ -93,24 +93,6 @@
   transform: scale(1.1);
 }
 
-.partners-container {
-  width: 100%;
-  margin-top: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.partners-wrapper {
-  margin-right: 2rem;
-}
-
-.partners-wrapper img {
-  width: 100px;
-  height: 70px;
-}
-
 .testimony-slide {
   margin-top: 2rem;
   padding: 2rem;

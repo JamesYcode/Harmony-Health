@@ -1,7 +1,9 @@
 import './App.css';
 import Footer from './components/ui/Footer/Footer';
 import Header from './components/ui/Header/Header';
+import Hero from './components/ui/Hero/Hero';
 import Home from './components/ui/Hero/Home';
+import Insurance from './components/ui/Insurance/Insurance';
 
 const data = [
   {
@@ -50,6 +52,8 @@ function App() {
   return (
     <div>
       <Header />
+      <Hero />
+      <Insurance data={data} />
       <Home data={data} />
       <Footer />
     </div>
