@@ -2,13 +2,9 @@ import './index.css';
 import './App.css';
 import Footer from './components/ui/Footer/Footer';
 import Header from './components/ui/Header/Header';
-<<<<<<< HEAD
 import Hero from './components/ui/Hero/Hero';
 
 import Insurance from './components/ui/Insurance/Insurance';
-=======
-import Home from './components/ui/Hero/Home';
->>>>>>> parent of 32c90f7 (more css changes.)
 
 const data = [
   {
@@ -57,13 +53,9 @@ function App() {
   return (
     <div>
       <Header />
-<<<<<<< HEAD
       <Hero />
       <Insurance data={data} />
 
-=======
-      <Home data={data} />
->>>>>>> parent of 32c90f7 (more css changes.)
       <Footer />
     </div>
   );
