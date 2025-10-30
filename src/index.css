@@ -12,15 +12,25 @@
   --gap: 1rem;
 
   /* Colors */
-  --primary-color: #2190ff;
-  --secondary-color: #b673f8;
-  --third-color: #0f3051;
-  --fourth-color: #f9fafb;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --bg: #ffffff;
+
+  --brand-500: #3b82f6;
+  --brand-600: #2563eb;
+  --brand-700: #1d4ed8;
+  --purple-500: #8b5cf6;
+
+  --surface: #f9fafb;
+  --surface-2: #eff6ff;
+
+  --radius-md: 0.75rem;
+  --radius-lg: 2rem;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #f9fafb;
+  background: var(--surface);
 }
 
 .container {

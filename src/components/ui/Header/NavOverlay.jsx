@@ -1,7 +1,7 @@
 function NavOverlay({ isNavbarOpen }) {
   return (
     <nav
-      className={`mobile-panel ${isNavbarOpen ? 'open' : ''} container`}
+      className={`mobile-panel ${isNavbarOpen ? 'open' : ''} `}
       id='mobile-menu'
     >
       <ul className='nav-list'>
