@@ -30,7 +30,11 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+<<<<<<< HEAD
   background: var(--surface);
+=======
+  background-color: var(--fourth-color);
+>>>>>>> parent of 32c90f7 (more css changes.)
 }
 
 .container {

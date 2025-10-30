@@ -10,6 +10,22 @@
     max-width: var(--sm);
   }
 
+<<<<<<< HEAD
+=======
+  .hero-content {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .hero-doctors {
+    min-width: 100%;
+    height: 100%;
+    background-image: url('/images/doctors.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+>>>>>>> parent of 32c90f7 (more css changes.)
   .testimony-img {
     width: 400px !important;
     border-radius: 30px;

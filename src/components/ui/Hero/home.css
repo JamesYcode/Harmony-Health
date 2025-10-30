@@ -1,0 +1,160 @@
+.home {
+  /* border: 1px solid red; */
+  margin-top: 5rem;
+  /* height: 100vh; */
+  display: grid;
+  /* place-content: center; */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.blob-main {
+  position: absolute;
+  /* responsive sizing */
+  width: clamp(15rem, 35vw, 28rem);
+  height: clamp(15rem, 35vw, 28rem);
+  filter: blur(80px); /* soft blob look */
+  background: linear-gradient(
+    135deg,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  border-radius: 50% 40% 60% 50% / 50% 60% 40% 50%; /* organic shape */
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.blob {
+  top: -10rem;
+  right: -6rem;
+}
+
+.blob2 {
+  top: -10rem;
+  left: -6rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem;
+}
+
+.hero-content {
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+}
+
+.hero-content h2 {
+  line-height: 1.5;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.hero-heading {
+  background: linear-gradient(45deg, #2190ff 2.34%, #b673f8 100.78%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-hero {
+  margin-top: 2rem;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  font-size: 0.99rem;
+}
+
+.more-info {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+
+.button {
+  width: inherit; /* Inheriting from parent which is .more-info width 100% */
+  background: var(--primary-color);
+  border-radius: 8px;
+  padding: 0.67rem;
+  border: none;
+  color: var(--fourth-color);
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.more-info button:hover {
+  transform: scale(1.1);
+}
+
+.partners-container {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.partners-wrapper {
+  margin-right: 2rem;
+}
+
+.partners-wrapper img {
+  width: 100px;
+  height: 70px;
+}
+
+.testimony-slide {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 100%;
+  background: linear-gradient(145deg, #2190ffa7, #b673f89e);
+}
+
+.testimony-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.testimony-img {
+  width: 200px;
+  /* margin-right: auto; */
+  border-radius: 30px;
+}
+
+.testimony-name {
+  color: var(--third-color);
+}
+
+.testimony-quote {
+  font-size: 0.95rem;
+  text-align: center;
+  color: var(--third-color);
+}
+
+.blockquote {
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.appointment-btn {
+  margin-top: 1rem;
+}
+
+.appointment-btn:hover {
+  transform: scale(1.1);
+}
