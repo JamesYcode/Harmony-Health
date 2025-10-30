@@ -5,6 +5,7 @@ import Header from './components/ui/Header/Header';
 import Hero from './components/ui/Hero/Hero';
 
 import Insurance from './components/ui/Insurance/Insurance';
+import QuickSearch from './components/ui/QuickSearch/QuickSearch';
 
 const data = [
   {
@@ -54,6 +55,7 @@ function App() {
     <div>
       <Header />
       <Hero />
+      <QuickSearch />
       <Insurance data={data} />
 
       <Footer />

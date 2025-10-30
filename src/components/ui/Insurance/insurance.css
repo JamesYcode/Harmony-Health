@@ -1,5 +1,6 @@
 .partners-container {
-  background: #f9fafb;
+  /* border: 1px solid red; */
+  background: var(--surface);
   width: 100%;
   margin-top: 3rem;
   display: flex;
@@ -10,7 +11,7 @@
 }
 
 .partners-container p {
-  color: #6b7280;
+  color: var(--muted);
   font-size: 0.95rem;
   font-weight: 600;
   padding: 1rem;
@@ -23,4 +24,10 @@
 .partners-wrapper img {
   width: 100px;
   height: 70px;
+}
+
+@media (min-width: 640px) {
+  .partners-container p {
+    font-size: 1.25rem;
+  }
 }

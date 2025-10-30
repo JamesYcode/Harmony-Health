@@ -1,3 +1,7 @@
+.hero {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 50%, #f0f9ff 100%);
+}
+
 /* GRID LAYOUT */
 .hero-grid {
   /* border: 10px solid green; */
@@ -5,7 +9,6 @@
   grid-template-columns: 1fr;
   gap: 2.5rem;
   padding: 10rem 0 4.5rem;
-
   text-align: center;
   align-items: center;
   position: relative;
@@ -217,7 +220,7 @@
 
 /* RESPONSIVE */
 @media (min-width: 768px) {
-  .hero {
+  .hero-wrapper {
     padding: 5rem 2rem 5.5rem;
   }
 
