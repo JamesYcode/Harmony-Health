@@ -1,25 +1,36 @@
 import './testimonial.css';
-function Testimonial({ data }) {
-  const randomTestimony = data[Math.floor(Math.random() * data.length)];
+
+export default function Testimonial({ data }) {
+  // const randomTestimony = data[Math.floor(Math.random() * data.length)];
   return (
-    <div>
-      <div className='testimony-slide'>
-        <div className='testimony-container'>
-          <img
-            className='testimony-img'
-            src={randomTestimony.image.profile}
-            alt={randomTestimony.name}
-          />
-          <p className='testimony-name'>{randomTestimony.name}</p>
+    <section className='testimonial-section section-pad'>
+      <div className='testimonial-container fade-in'>
+        <div className='testimonial-card'>
+          <p className='testimonial-text'>
+            The doctors at Harmony Health truly listened to my concerns and
+            created a treatment plan that worked for me.
+          </p>
+
+          <div className='testimonial-author' aria-label='Author'>
+            <div className='author-image' aria-hidden='true'>
+              <i className='fas fa-user' />
+            </div>
+            <div className='author-info'>
+              <h4>John</h4>
+              <p>Verified Patient</p>
+            </div>
+          </div>
+
+          {/* Place holders */}
+          <div className='rating' aria-label='5 out of 5 stars'>
+            <i className='fas fa-star' />
+            <i className='fas fa-star' />
+            <i className='fas fa-star' />
+            <i className='fas fa-star' />
+            <i className='fas fa-star' />
+          </div>
         </div>
-        <p className='testimony-quote'>
-          <span className='blockquote'>"</span>
-          {randomTestimony.testimony}
-          <span className='blockquote'>"</span>
-        </p>
       </div>
-    </div>
+    </section>
   );
 }
-
-export default Testimonial;

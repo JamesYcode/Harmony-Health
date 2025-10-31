@@ -7,6 +7,8 @@ import Hero from './components/ui/Hero/Hero';
 import Insurance from './components/ui/Insurance/Insurance';
 import QuickSearch from './components/ui/QuickSearch/QuickSearch';
 import Highligts from './components/ui/Highlights/Highligts';
+import Testimonial from './components/ui/Testimonial/Testimonial';
+import Cta from './components/ui/CTA/Cta';
 
 const data = [
   {
@@ -59,6 +61,8 @@ function App() {
       <QuickSearch />
       <Insurance data={data} />
       <Highligts />
+      <Testimonial data={data} />
+      <Cta />
       <Footer />
     </div>
   );
