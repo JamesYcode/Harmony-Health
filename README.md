@@ -20,10 +20,10 @@ Tech Stack (Planned/Partial)
 
 - Frontend: React.js, Redux Toolkit, Framer Motion, custom CSS/3D elements
 - 
-- Backend: Node.js, Express.js (planned)
-- 
-- Database: MongoDB/Mongoose (planned)
-- 
+🔄 Backend: Node.js, Express.js (Work in progress)
+
+🔄 Database: MongoDB/Mongoose (Work in progress)
+
 - Cloud/Storage: TBA
 
 Vision
