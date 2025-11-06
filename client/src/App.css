@@ -1,0 +1,130 @@
+/* Media Queries */
+@media (min-width: 375px) {
+  .container {
+    max-width: var(--xs);
+  }
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: var(--sm);
+  }
+
+  .testimony-img {
+    width: 400px !important;
+    border-radius: 30px;
+  }
+
+  .footer-contact {
+    padding: 1rem !important;
+  }
+
+  .footer-navigate {
+    width: initial !important;
+    padding: 1rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: var(--md);
+  }
+
+  .partners-container {
+    margin-top: 4rem !important;
+    margin-bottom: 2rem !important;
+    /* border: 1px solid red; */
+  }
+
+  .testimony-slide {
+    display: flex;
+    /* border: 2px solid green; */
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .testimony-quote {
+    padding: 1rem;
+    border-radius: 8px;
+    position: relative;
+    background-color: #15283ac7;
+    /* background-color: #1d68b4c9; */
+    color: var(--fourth-color) !important;
+  }
+
+  /* From: https://projects.verou.me/bubbly/ */
+  .testimony-quote:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: #15283ac7;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -10px;
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: var(--mdlg);
+  }
+
+  .appointment-btn {
+    margin-top: 2rem !important;
+  }
+
+  .partners-container {
+    /* border: 1px solid red; */
+    gap: initial !important;
+    justify-content: space-around !important;
+  }
+
+  .partners-wrapper img {
+    width: 200px !important;
+    height: 100px !important;
+  }
+
+  .partners-wrapper {
+    margin-right: 4rem !important;
+  }
+
+  .footer-contact {
+    min-width: 400px !important;
+  }
+
+  .footer-navigate {
+    min-width: 400px !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: var(--lg);
+  }
+
+  .testimony-slide {
+    width: 70% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .testimony-container {
+    width: 70% !important;
+  }
+
+  .testimony-quote {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: var(--xxl);
+  }
+}
